@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta http-equiv="Content-Language" content="en-us" />
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
-	<meta name="copyright" content="(c) Copyright 2001-2007 Dan Rubin" />
+	<meta name="copyright" content="(c) Copyright 2001-2008 Dan Rubin" />
 	
 	<title><?php wp_title(' '); ?><?php if ( is_home() ) { ?><?php } else { ?> @ <?php } ?><?php bloginfo('name'); ?></title>
 	
@@ -41,14 +41,18 @@
 	
 	<!-- sIFR -->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/sIFR/sIFR-screen.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/sIFR/sIFR-print.css" type="text/css" media="print" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/sIFR/sIFR-print.css" type="text/css" media="print" />	
 
 	<?php // pink for october
 	if(date('m')=='10') { ?>
 	<script src="<?php bloginfo('template_directory'); ?>/sIFR/sifr-pink.js" type="text/javascript"></script>
+	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon-pink.ico" />
 	<?php }else{ ?>
 	<script src="<?php bloginfo('template_directory'); ?>/sIFR/sifr.js" type="text/javascript"></script>
+	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	<?php } //end pink for october IF ?>
+	
+	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/apple-touch-icon.png" />
 	
 	<script src="<?php bloginfo('template_directory'); ?>/sIFR/sifr-addons.js" type="text/javascript"></script>
 	
