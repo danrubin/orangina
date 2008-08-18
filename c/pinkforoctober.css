@@ -1,0 +1,177 @@
+/*
+-----------------------------------------------
+superfluousbanter.org is pink for october
+author:  Dan Rubin
+edited:  2007-10-05
+----------------------------------------------- */
+
+body { background-color:#210012; }
+
+#wrapper { background:#ff0088 url(../i/pink/bg_wrapper.gif) repeat-y; }
+
+#waves { background-image:url(../i/pink/bg_waves.gif); }
+
+#nav { background-image:url(../i/pink/bg_nav.gif); }
+
+h1#logo a { background-image:url(../i/pink/logo.png); }
+
+#search { background-image:url(../i/pink/bg_search.gif); }
+
+#version {
+	width:181px;
+	background-image:url(../i/pink/bg_version_8.2_200710.gif);
+}
+
+#content { background-image:url(../i/pink/bg_content_top.gif); }
+#content2 { background-image:url(../i/pink/bg_content_bottom.gif); }
+#content3 { background-image:url(../i/pink/bg_content_middle.gif); }
+
+div.homerule { background-image:url(../i/pink/border_homerule.gif); }
+
+.entry h2,
+.entry h2 a,
+.entry h3,
+.entry h4 {
+	color:#e00078;
+}
+.entry h3 {
+	border-color:#f0dde7;
+}
+
+.entry-body a { color:#e00078; }
+.entry-body a:hover,
+.entry-body p:hover a:hover {
+	background-color:#ffd9ed;
+	color:#b3005f;
+	border-bottom-color:#f09cc9;
+}
+
+.entry-body ul li { background-image:url(../i/pink/icon_bullet_pink.png); }
+
+#comment-wrapper { border-color:#d40071; }
+#comments { background-image:url(../i/pink/bg_comments_bottom.gif); }
+#comments2 { background-color:#eb007d; }
+
+#comments h3#respond { border-color:#d40272; }
+
+ol#comment-list li.alt {
+	background-color:#e00078;
+}
+.comment-header,
+.comment-header a { color:#ff99cf; }
+.comment-header cite a:hover span {
+	color:#b3005f;
+}
+ol#comment-list li.mycomment { background-color:#4d0029; }
+
+.gravatar {
+	background-image:url(../i/pink/bg_gravatar.gif);
+}
+.alt .gravatar {
+	background-image:url(../i/pink/bg_gravatar_alt.gif);
+}
+.mycomment .gravatar {
+	background-image:url(../i/pink/bg_gravatar_me.gif);
+}
+.gravatar img {
+	background-color:#ff4fad;
+	border:2px solid #cc006d;
+}
+.mycomment .gravatar img {
+	border-color:#8c004b;
+}
+
+.comment-body a {
+	color:#800044;
+}
+.mycomment .comment-body a {
+	color:#e00078;
+}
+.comment-body a:hover,
+.comment-body p:hover a:hover {
+	background-color:#d60072;
+	color:#54002d;
+	border-color:#c9006b;
+}
+.mycomment .comment-body a:hover,
+.mycomment .comment-body p:hover a:hover {
+	background-color:#6e003a;
+	color:#ff0088;
+	border-color:#820146;
+}
+
+#comments form #allowedtags {
+	background-color:#e00078;
+	color:#ff99cf;
+	border:1px solid #c20268;
+}
+
+
+#sidebar-wrapper ul a { color:#cc006d; }
+
+#sidebar-wrapper #sidebar-secondary ul a {
+	background-image:url(../i/pink/icon_bullet_sidebar_secondary.gif);
+	color:#cc006d;
+}
+#sidebar-wrapper #sidebar-secondary ul a em {
+	color:#b35b8a;
+}
+#sidebar-wrapper #sidebar-secondary ul a:hover {
+	background-color:#400022;
+	background-image:url(../i/icon_bullet_sidebar_secondary_hover.gif);
+	border-right-color:#30001a;
+}
+#sidebar-wrapper #sidebar-secondary ul a:hover em { color:#6b294c; }
+
+#sidebar {
+	background-image:url(../i/pink/bg_sidebar_top.gif);
+}
+#sidebar2 {
+	background-image:url(../i/pink/bg_sidebar_bottom.gif);
+}
+#sidebar3 {
+	background-image:url(../i/pink/bg_sidebar_middle.gif);
+}
+
+#sidebar-secondary { background:url(../i/pink/bg_sidebarsecondary_top.gif) no-repeat; }
+#sidebar-secondary2 { background:url(../i/pink/bg_sidebarsecondary_bottom.gif) no-repeat bottom; }
+#sidebar-secondary3 { background:#4d0029 url(../i/pink/bg_sidebarsecondary_middle.gif) repeat-y; }
+
+#sidebar-events h4,
+#sidebar-events h4 a { background-image:url(../i/pink/heading_sidebar_events.gif); }
+#sidebar-hosting h4,
+#sidebar-hosting h4 a { background-image:url(../i/pink/heading_sidebar_hosting.gif); }
+#sidebar-sponsors h4,
+#sidebar-sponsors h4 a { background-image:url(../i/pink/heading_sidebar_sponsors.gif); }
+
+#sidebar-sponsors p { border-top-color:#590030; }
+#sidebar-sponsors p a { color:#b35b8a; }
+
+#footer-wrapper {
+	background:#e00078 url(../i/pink/bg_footer.gif) repeat-y;
+	border-bottom-color:#d40071;
+}
+
+#footer { background-image:url(../i/pink/border_footer.gif); }
+
+#footer .module {
+	color:#ff80c3;
+	border-right-color:#eb1386;
+}
+
+#footer a { color:#ff80c3; }
+
+#footer ul li a:hover { background-color:#cc006d; }
+
+#footer-about h4 a { background-image:url(../i/pink/heading_footer_superfluousbanter.gif); }
+
+#footer-recent h4 a { background-image:url(../i/pink/heading_footer_recentbanter.gif); }
+
+#footer-links h4 a { background-image:url(../i/pink/heading_footer_magnificent.gif); }
+
+#footer-extra h4 a {
+	width:183px;
+	background-image:url(../i/pink/heading_footer_pinkforoctober.gif);
+}
+
+#footer-extra a#sb-icon { background-image:url(../i/pink/footer_whypink.gif); }

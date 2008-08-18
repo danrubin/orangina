@@ -1,0 +1,103 @@
+/*
+-----------------------------------------------
+superfluousbanter.org style sheet for IE6
+author:  Dan Rubin
+edited:  2007-09-18
+----------------------------------------------- */
+
+/* pesky hobbitses... */
+
+/* Hides from IE-mac \*/
+* html .clearfix { overflow:hidden;_height:1%; }
+/* End hide from IE-mac */
+
+#ie6message {
+	display:none;
+	width:100%;
+	margin:0;padding:.5em 0;
+	background-color:#c90000;
+	border-bottom:3px solid #fff;
+	color:#fff;
+}
+#ie6message a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+* html #content { margin-left:18px; }
+
+* html #comment-wrapper { margin-left:36px; }
+
+* html #nav {
+	position:relative;
+	left:0;
+	top:0;
+	height:25px;
+}
+
+* html #search fieldset {
+	margin-top:-40px;
+}
+* html #search input#s {
+    width:210px;
+    height:16px;
+    vertical-align:middle;
+}
+* html #search input#searchsubmit {
+    margin-top:1px;
+    vertical-align:middle;
+}
+
+* html #nav ul li a,
+* html #nav ul li a:link,
+* html #nav ul li a:visited {
+    background-image:url(../i/navmatrix.gif);
+}
+
+* html h1#logo a
+{
+background-image:none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://superfluousbanter.org/wp/wp-content/themes/orangina/i/logo.png", sizingMethod="crop");
+}
+
+.date-badge,
+.page-badge {
+	margin-left:-30px;
+}
+
+.date-month {
+	right:8px;
+}
+.date-day {
+	right:10px;
+}
+
+* html .entry h2 {
+    margin-left:-3px;
+    height:1px;
+}
+* html .entry .entry-stats {
+margin-top:0;
+background-image:url(../i/icon_calendar.gif)
+}
+* html .entry .entry-stats span.comment-count { background-image:url(../i/icon_comment.gif); }
+* html .continue-reading { background-image:url(../i/icon_arrow_gray.gif); }
+* html #rsslinks { background-image:url(../i/icon_rss.gif);background-position:-4px 6px; }
+
+* html .comment-header { background-image:url(../i/icon_vcard.gif); }
+
+* html .entry-body ul li { background-image:url(../i/icon_bullet_orange.gif); }
+
+* html #sidebar1,
+* html #sidebar2,
+* html #sidebar3 { height:1px; }
+
+* html #sidebar-wrapper ul li,
+* html #footer ul li {
+    height:1px;
+}
+
+* html #sidebar-wrapper ul a { padding-left:23px; }
+
+* html #sidebar-wrapper ul a span,
+* html #sidebar-wrapper ul a:hover span { display:none; }

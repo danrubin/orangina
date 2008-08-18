@@ -1,0 +1,46 @@
+.clearfix { overflow:hidden;_height:1%; }
+
+#search input#s {
+	width:210px;
+	height:14px;
+}
+#search input#searchsubmit {
+	vertical-align:bottom;
+}
+
+.date-month {
+	right:4px;
+}
+.date-day {
+	right:10px;
+}
+
+.entry .entry-stats {
+	margin-top:-1px;
+}
+
+.entry ul,
+.entry ol {
+	line-height:1.4;
+}
+
+.entry-body ul {
+	margin-left:0;
+}
+
+.entry-body a,
+.comment-body a {
+	padding:0;
+}
+
+div.homerule {
+	margin-top:-15px;
+}
+
+#sidebar-wrapper ul {
+	line-height:12px;
+}
+
+#footer h4 a {
+	margin-top:-5px;
+}
