@@ -1,10 +1,8 @@
-/* @override http://superfluousbanter.org/wordpress/wp-content/themes/default/c/valid.css */
-
 /*
 -----------------------------------------------
 superfluousbanter.org style sheet for non-Micro$oft browsers
 author:  Dan Rubin
-edited:  2008-06-07
+edited:  2008-08-18
 ----------------------------------------------- */
 
 /* style sheet rules here */
@@ -60,87 +58,6 @@ body {
 	background:#fff url(../i/bg_content_middle.gif) repeat-y;
 	padding:3px 60px 1px;
 }
-
-/*#toolbar-wrapper {
-	position:relative;
-}
-#toolbar {
-	background:#FF944D url(../i/bg_toolbar.gif) repeat-y;
-	height:100px;
-	padding-left:156px;
-}
-#toolbar hr {
-	background:url(../i/border_toolbar.gif) no-repeat;
-	position:absolute;
-	left:0;
-	bottom:0;
-	width:1000px;
-	height:2px;
-	margin:0;
-	border:none;
-}
-#toolbar h2 {
-	background:url(../i/heading_toolbar_superfluoustools.gif) no-repeat 0 15px;
-	width:205px;
-	height:23px;
-	margin:0;
-	padding:15px 0 0;
-	text-indent:-9999px;
-}
-#toolbar h3 {
-	float:left;
-	margin:0;
-	margin-right:5px;
-	line-height:17px;
-}
-#toolbar #categorylist h3 {
-	background:url(../i/heading_toolbar_categories.gif) no-repeat;
-	width:87px;
-	height:15px;
-	text-indent:-9999px;
-}
-#toolbar #search h3 {
-	background:url(../i/heading_toolbar_search.gif) no-repeat 0 3px;
-	width:63px;
-	height:20px;
-	text-indent:-9999px;
-}
-#categorylist {
-	padding:5px 0;
-}
-#categorylist * {
-	line-height:15px;
-}
-#categorylist p {
-	font-size:90%;
-	font-weight:bold;
-	color:#fff;
-	margin:0;
-}
-#categorylist a,
-#categorylist a:link,
-#categorylist a:visited {
-	color:#fff;
-	text-decoration:none;
-}
-#categorylist a:hover {
-	text-decoration:underline;
-}
-#search {
-	position:relative;
-}
-#search * {
-	line-height:17px;
-}
-#search form {
-	margin:0;
-}*/
-/*#addicted_results {
-	width:250px;
-	background:#fff;
-	border:1px solid #000;
-}*/
-
 
 #nav {
 	position:relative;
@@ -364,28 +281,31 @@ margin-bottom:-.75em;
 	/*border:1px solid #E4EDF6;*/
 }
 .entry blockquote {
-	background-color:#F4FBF3;
 	margin-left:0;
 	margin-right:0;
-	padding:1em;
-	color:#76CC66;
-	border:1px solid #E7F6E4;
+	padding:0 1em 1em;
+	font-size:130%;
 	font-family:georgia,serif;
 	font-style:italic;
 }
 .entry blockquote p {
 	margin:0;
-	color:#76CC66;
+	color:#888;
+}
+.entry blockquote cite {
+	float:right;
+	font-size:85%;
+	line-height:1.8;
 }
 /* green links */ 
-.entry blockquote a {
+/*.entry blockquote a {
 	color:#429d31;
 }
 .entry-body blockquote p:hover a:hover {
 	background-color:#d9ffd9;
 	color:#2a771c;
 	border-bottom:1px solid #9df09c;
-}
+}*/
 
 .entry abbr,
 .entry acronym {
@@ -501,6 +421,23 @@ margin-bottom:-.75em;
 	background:url(../i/icon_bullet_orange.png) no-repeat 0 50%;
 	list-style:none;
 	padding-left:16px;
+}
+
+.entry-body dl dd {
+	margin-left:0;
+	border-bottom:1px dashed #eee;
+}
+.entry-body dl dt strong,
+.entry-body dl dd strong {
+	margin-left:-8px;
+	padding-left:3px;
+	border-left:5px solid #eee;
+}
+.entry-body dl dd strong {
+	border-color:#ddd;
+}
+.entry-body dl dd ul li {
+	background-position:left top;
 }
 
 ul.nested-list li {
@@ -891,7 +828,7 @@ ol#comment-list ul li {
 	margin:-30px 0 20px;
 	padding-left:149px;
 	padding-right:15px;
-	font-size:9px;	
+	font-size:9px;
 }
 #sidebar-wrapper #adlink a {
 	color:#494949;
@@ -984,25 +921,6 @@ Below are some styles to get you started!
 .flickr_badge_image a:hover img {
 	border-color:#888 !important;
 }
-/*#flickr_badge_source { text-align:left; margin:0 10px 0 10px; }*/
-/*#flickr_badge_icon { float:left; margin-right:5px; }*/
-/*#flickr_www {
-	display:block;
-	padding:0 10px 0 10px !important;
-	font: 11px Arial, Helvetica, Sans serif !important;
-	color:#3993ff !important;
-}*/
-/*#flickr_badge_uber_wrapper a:hover,
-#flickr_badge_uber_wrapper a:link,
-#flickr_badge_uber_wrapper a:active,
-#flickr_badge_uber_wrapper a:visited {
-	text-decoration:none !important;
-	background:inherit !important;
-	color:#3993ff;
-}
-#flickr_badge_wrapper {}*/
-/*#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}*/
-
 
 #rsslinks {
 	background:url(../i/icon_rss.png) no-repeat -4px 2px;
