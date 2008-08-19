@@ -2,7 +2,7 @@
 -----------------------------------------------
 superfluousbanter.org style sheet for non-Micro$oft browsers
 author:  Dan Rubin
-edited:  2008-08-18
+edited:  2008-08-19
 ----------------------------------------------- */
 
 /* style sheet rules here */
@@ -296,6 +296,7 @@ margin-bottom:-.75em;
 	float:right;
 	font-size:85%;
 	line-height:1.8;
+	white-space:nowrap;
 }
 /* green links */ 
 /*.entry blockquote a {
@@ -898,13 +899,7 @@ ol#comment-list ul li {
 	color:#fff;
 }
 
-
-/*
-Images are wrapped in divs classed "flickr_badge_image" with ids
-"flickr_badge_imageX" where "X" is an integer specifying ordinal position.
-Below are some styles to get you started!
-*/
-/*#flickr_badge_uber_wrapper { text-align:center; width:150px; }*/
+/* flickr widget */
 #flickr_badge_wrapper {
 	padding:3px 0 12px 12px;
 }
