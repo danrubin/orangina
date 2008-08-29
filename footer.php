@@ -25,6 +25,8 @@
 				<div class="module" id="footer-links">
 					<h4><a href="http://ma.gnolia.com/people/danrubin/tags/ephemera" title="view more ma.gnolia links &rarr;">ma.gni.ficent</a></h4>
 					<div id="linkswrapper">					
+					    <?php //magnolia('danrubin',6,1,0,0,'ephemera','',0,'lite') ?>
+					    
 						<?php magnolia_links('danrubin') ?>
 						
 						<?
