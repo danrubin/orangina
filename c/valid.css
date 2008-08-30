@@ -305,7 +305,7 @@ ul#twitter_update_list {
 	line-height:15px;
 }
 ul#twitter_update_list li a {
-    margin-left:-25px;
+    margin:0 -20px 0 -25px;
 }
 
 
