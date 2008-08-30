@@ -32,6 +32,13 @@
 		<script type="text/javascript" src="http://ads.inthesidebar.com/F3B61B38"></script>
 		<p id="adlink"><a href="http://inthesidebar.com">Ads by SidebarAds</a></p>
 		
+		<div id="sidebar-twitter">
+		    <h4><a href="http://twitter.com/danrubin" title="Follow me on twitter &raquo;">superfluous twitter</a></h4>
+		    <div id="twitter_div"><ul id="twitter_update_list"></ul></div>
+            <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+            <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/danrubin.json?callback=twitterCallback2&amp;count=1"></script>
+		</div>
+		
 		<div id="sidebar-projects">
 			<h4>superfluous projects</h4>
 			<ul>
