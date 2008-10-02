@@ -1,8 +1,10 @@
+/* @override http://superfluousbanter.org/wordpress/wp-content/themes/default/c/pinkforoctober.css */
+
 /*
 -----------------------------------------------
 superfluousbanter.org is pink for october
 author:  Dan Rubin
-edited:  2007-10-05
+edited:  2008-10-02
 ----------------------------------------------- */
 
 body { background-color:#210012; }
@@ -109,7 +111,8 @@ ol#comment-list li.mycomment { background-color:#4d0029; }
 
 #sidebar-wrapper ul a { color:#cc006d; }
 
-#sidebar-wrapper #sidebar-secondary ul a {
+#sidebar-wrapper #sidebar-secondary ul a,
+#sidebar-wrapper #sidebar-secondary .upb_events a {
 	background-image:url(../i/pink/icon_bullet_sidebar_secondary.gif);
 	color:#cc006d;
 }

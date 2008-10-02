@@ -1,8 +1,10 @@
+/* @override http://superfluousbanter.org/wordpress/wp-content/themes/default/c/valid.css */
+
 /*
 -----------------------------------------------
 superfluousbanter.org style sheet for non-Micro$oft browsers
 author:Dan Rubin
-edited:2008-08-30
+edited:2008-10-02
 ----------------------------------------------- */
 
 /* style sheet rules here */
@@ -286,7 +288,7 @@ ol#comment-list ul li { margin:0;padding:0; }
 
 #sidebar-wrapper #sidebar-secondary ul a,
 #sidebar-wrapper #sidebar-secondary .upb_events a { background-image:url(../i/icon_bullet_sidebar_secondary.gif);color:#CB5100;background-repeat:no-repeat; }
-#sidebar-wrapper #sidebar-secondary .upb_events span.upb_title.upb_text a { /*position:relative;top:-1em;*/ }
+/*#sidebar-wrapper #sidebar-secondary .upb_events span.upb_title.upb_text a { position:relative;top:-1em; }*/
 #sidebar-wrapper #sidebar-secondary ul a span { color:#fc3; }
 #sidebar-wrapper #sidebar-secondary ul a em,
 #sidebar-wrapper #sidebar-secondary .upb_events .upb_date { color:#b37c5b; }

@@ -10,10 +10,10 @@ if(typeof sIFR == "function" && !sIFR.UA.bIsIEMac){
 	sIFR.setup();
 	//sIFR.debug();
 	
-	sIFR.replaceElement(named({sSelector:".date-badge .date-month,.date-badge .date-day", sFlashSrc:"/wp/wp-content/themes/orangina/sIFR/tradegothicboldextended.swf", sColor:"#D9D9D9", sCase:"upper", sBgColor:"#F2F2F2", sWmode:"transparent"}));
+	sIFR.replaceElement(named({sSelector:".date-badge .date-month,.date-badge .date-day", sFlashSrc:"/wordpress/wp-content/themes/orangina/sIFR/tradegothicboldextended.swf", sColor:"#D9D9D9", sCase:"upper", sBgColor:"#F2F2F2", sWmode:"transparent"}));
 
-	sIFR.replaceElement(named({sSelector:".entry h2", sFlashSrc:"/wp/wp-content/themes/orangina/sIFR/tradegothiclight.swf", sColor:"#e00078", sLinkColor:"#e00078", sWmode:"transparent"}));
+	sIFR.replaceElement(named({sSelector:".entry h2", sFlashSrc:"/wordpress/wp-content/themes/orangina/sIFR/tradegothiclight.swf", sColor:"#e00078", sLinkColor:"#e00078", sWmode:"transparent"}));
 	
-	sIFR.replaceElement(named({sSelector:"#comments h2", sFlashSrc:"/wp/wp-content/themes/orangina/sIFR/tradegothiclight.swf", sColor:"#ffffff", sWmode:"transparent"}));
+	sIFR.replaceElement(named({sSelector:"#comments h2", sFlashSrc:"/wordpress/wp-content/themes/orangina/sIFR/tradegothiclight.swf", sColor:"#ffffff", sWmode:"transparent"}));
 	
 };
