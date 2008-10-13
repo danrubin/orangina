@@ -46,7 +46,14 @@
 	<?php foreach ($comments as $comment) : ?>
 		
 		<li class="clearfix <?php echo $oddcomment; ?><?php author_highlight(); ?>" id="comment-<?php comment_ID() ?>">
-			<span class="gravatar"><a href="<?php comment_author_url(); ?>"><img src="<?php gravatar("", 40, "http://superfluousbanter.org/gravatar/default.png"); ?>" alt="" /></a></span>
+			<span class="gravatar"><a href="<?php comment_author_url(); ?>">
+			    <?php // pink for october
+            	if(date('m')=='10') { ?>
+            	<img src="<?php gravatar("", 40, "http://superfluousbanter.org/gravatar/default-pink.png"); ?>" alt="" />
+            	<?php }else{ ?>
+            	<img src="<?php gravatar("", 40, "http://superfluousbanter.org/gravatar/default.png"); ?>" alt="" />
+            	<?php } //end pink for october IF ?>
+			    </a></span>
 			<span class="comment-header">
 				<?php edit_comment_link('edit','<span class="comment-editlink">[',']</span>'); ?>
 				<cite>
