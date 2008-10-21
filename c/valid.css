@@ -1,10 +1,8 @@
-/* @override http://superfluousbanter.org/wordpress/wp-content/themes/default/c/valid.css */
-
 /*
 -----------------------------------------------
 superfluousbanter.org style sheet for non-Micro$oft browsers
 author:Dan Rubin
-edited:2008-10-02
+edited:2008-10-20
 ----------------------------------------------- */
 
 /* style sheet rules here */
@@ -308,6 +306,16 @@ ul#twitter_update_list {
 }
 ul#twitter_update_list li a {
     margin:0 -20px 0 -25px;
+}
+ul#twitter_update_list li span a {
+	display:inline;
+	margin:0;
+	padding:0;
+	background:transparent;
+}
+ul#twitter_update_list li span a:hover {
+	background:transparent;
+	border:none;
 }
 
 

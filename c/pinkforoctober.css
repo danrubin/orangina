@@ -1,10 +1,8 @@
-/* @override http://superfluousbanter.org/wordpress/wp-content/themes/default/c/pinkforoctober.css */
-
 /*
 -----------------------------------------------
 superfluousbanter.org is pink for october
 author:  Dan Rubin
-edited:  2008-10-02
+edited:  2008-10-20
 ----------------------------------------------- */
 
 body { background-color:#210012; }
@@ -119,7 +117,8 @@ ol#comment-list li.mycomment { background-color:#4d0029; }
 #sidebar-wrapper #sidebar-secondary ul a em {
 	color:#b35b8a;
 }
-#sidebar-wrapper #sidebar-secondary ul a:hover {
+#sidebar-wrapper #sidebar-secondary ul a:hover,
+#sidebar-wrapper #sidebar-secondary .upb_events a:hover {
 	background-color:#400022;
 	background-image:url(../i/icon_bullet_sidebar_secondary_hover.gif);
 	border-right-color:#30001a;
@@ -139,6 +138,14 @@ ol#comment-list li.mycomment { background-color:#4d0029; }
 #sidebar-secondary { background:url(../i/pink/bg_sidebarsecondary_top.gif) no-repeat; }
 #sidebar-secondary2 { background:url(../i/pink/bg_sidebarsecondary_bottom.gif) no-repeat bottom; }
 #sidebar-secondary3 { background:#4d0029 url(../i/pink/bg_sidebarsecondary_middle.gif) repeat-y; }
+
+/* twitter update */
+ul#twitter_update_list {
+	color:#808080;
+}
+ul#twitter_update_list li a {
+    margin:0 -20px 0 -25px;
+}
 
 #sidebar-events h4,
 #sidebar-events h4 a { background-image:url(../i/pink/heading_sidebar_events.gif); }
